@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1 class="mt-5">Library of Babel</h1>
+    <form action="/", method="post">
+        <input type="text"><!-- search bar for page number -->
+        <button type="submit"> Go To Page </submit>
+    </form>
+    <!-- TODO: Implement a search form -->
+
+    <p class="text-break mt-3">
+        {{ placeholder }}<!-- randomly generated string appears -->
+    </p>
+
+    <!-- TODO: Implement a search history table -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    {% for row in history %}
+                    <tr>
+                        <td>{{["page"]}}</td><!-- {'1':10, '2':50} -->
+                    </tr>
+                    {% endfor %}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in history %}
+            <tr>
+                <td>{{row["page"]}}</td><!-- 10\n 50} -->
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

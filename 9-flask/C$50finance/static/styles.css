@@ -1,0 +1,60 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+.data
+{
+    color: green;
+}
+
+.Symbol
+{
+    left: 150px;
+    top: 100px;
+}
+
+.Shares
+{
+    left: 150px;
+    top: 150px;
+}
+
+.button
+{
+    left: 150px;
+    top: 200px;
+    height: 45px;
+    background: #87CFEA;
+}
+
+
+th
+{
+    padding-right: 100px;
+}
+
+td
+{
+    left: 450px;
+    padding-right: 100px;
+}
