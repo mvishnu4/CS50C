@@ -1,0 +1,16 @@
+sort1 uses: BUBBLE SORT
+
+
+How do you know?:
+by running time ./sort1 for sorted,reversed and random files
+and comparing output as 0.089,0.026,0.03 respectively
+sort2 uses: MERGE SORT
+
+How do you know?:
+by running time ./sort2 for sorted,reversed and random files
+and comparing output as 0.05,0.05,0.083 respectively
+sort3 uses: SELECTION SORT
+
+How do you know?:
+by running time ./sort3 for sorted,reversed and randomfiles
+and comparing output as 0.18,0.19,0.15
