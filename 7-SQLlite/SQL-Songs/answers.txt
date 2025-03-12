@@ -1,0 +1,12 @@
+I caluculate audio aura of a person if the given db contain top 100 songs listened by a person in past year as follows:
+A. I may take avg of danceability, valence, energy of the musics they listen
+B. Then I suit the suitable mood of the person by the caluculated
+C. Then I Assing the Audio Aura
+
+The Audio Aura assigned by me may be mistake
+A. If the account is used by multiple people
+B. If person randomly listem to songs irrespective of the situation or his favorites
+
+-> I may improve assigning Audio Aura by considering
+A. The Genere, Track of song
+B. The Tempo, (duration if needed) of the song
